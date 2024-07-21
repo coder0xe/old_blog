@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "宇智波vscode's BLOG"
-subtitle: 'DQR'
+title: "sudo's BLOG"
+subtitle: 'sudo-dqr'
 description: '木叶飞舞之处，火亦生生不息'
-keywords: BUAA,2206,CO,OOpre
-author: 宇智波vscode
+keywords: BUAA,2206
+author: sudo
 language: zh-CN
 timezone:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://DQR2206.github.io
+url: http://sudo-dqr.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -106,8 +106,7 @@ theme: butterfly
 deploy:
   type: git
   repository:
-     github: git@github.com:sudo-dqr/sudo-dqr.github.io.git
-    #- gitee: git@gitee.com:du-qirong/dqr.git
+    github: git@github.com:sudo-dqr/sudo-dqr.github.io.git
   branch: master
 # search
 search:
